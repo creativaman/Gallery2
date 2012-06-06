@@ -7,7 +7,6 @@
 		<link rel="shortcut icon" href="favicon.ico">
 		<!--[if lt IE 9]>
   			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  		<![endif]-->
   		<script src="http://modernizr.com/downloads/modernizr-2.5.3.js"></script>
   		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
   		<![endif]-->
