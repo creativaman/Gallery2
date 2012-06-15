@@ -35,34 +35,42 @@
 					</ul>
 				</div>
 			</nav>
-			<aside>
-				<div class="widget">
-					<h3>Поиск</h3>
-					<form action="#" name="searchform" method="post">
-						<input type="text" class="text" name="search_line" value="Type in here">
-						<input type="button" class="button" name="search" value="Поиск">
-					</form>
-				</div>
-				<div class="widget">
-					<h3>Категории</h3>
-					<ul>
-						<li>Кино</li>
-						<li>Музыка</li>
-						<li>Новости</li>
-					</ul>
-				</div>
-				<div class="widget">
-					<h3>Архив</h3>
-					<ul>
-						<li>2012</li>
-						<li>2011</li>
-						<li>2010</li>
-					</ul>
-				</div>
-			</aside>
-			<div id="content">
-				<?=$content?>
-			</div>
+			<table id="table" cellspacing="0" cellpadding="0">
+				<tr>
+					<td id="td_content">
+						<div id="content">
+							<?=$content?>
+						</div>
+					</td>
+					<td id="td_aside">
+						<aside>
+							<div class="widget">
+								<h3>Поиск</h3>
+								<form action="#" name="searchform" method="post">
+									<input type="text" class="text" name="search_line" value="Type in here">
+									<input type="button" class="button" name="search" value="Поиск">
+								</form>
+							</div>
+							<div class="widget">
+								<h3>Категории</h3>
+								<ul>
+									<li>Кино</li>
+									<li>Музыка</li>
+									<li>Новости</li>
+								</ul>
+							</div>
+							<div class="widget">
+								<h3>Архив</h3>
+								<ul>
+									<li>2012</li>
+									<li>2011</li>
+									<li>2010</li>
+								</ul>
+							</div>
+						</aside>
+					</td>
+				</tr>
+			</table>
 			<footer>
 				Developed by mixer. All right reserved © 2012
 			</footer>
