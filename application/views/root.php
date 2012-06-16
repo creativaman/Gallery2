@@ -21,7 +21,7 @@
 				<div id="center">
 					<ul>
 						<li>
-							<a href="#">Главная</a>
+							<a href="root">Главная</a>
 						</li>
 						<li>
 							<a href="#">Галерея</a>
@@ -30,7 +30,7 @@
 							<a href="#">Ссылки</a>
 						</li>
 						<li>
-							<a href="#">Вход</a>
+							<a href="auth">Вход</a>
 						</li>
 					</ul>
 				</div>

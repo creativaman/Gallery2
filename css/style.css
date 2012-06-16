@@ -81,6 +81,7 @@ nav ul li a:hover{
 #td_content {
    vertical-align: top;
    padding: 10px;
+   width: 650px;
 }
 
 #td_aside {
@@ -91,6 +92,7 @@ article {
    border: 2px solid #C7C7C7;
    border-radius: 10px 10px 10px 10px;
    padding: 15px 15px 5px 15px;  
+   margin-bottom: 10px;
 }
 
 h2 {
