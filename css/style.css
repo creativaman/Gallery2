@@ -15,6 +15,19 @@ body {
    color: gray;
 }
 
+input[type="submit"] {
+   width: 50px;
+}
+
+input {
+   border-radius: 5px;
+   border: 1px solid #EDA64A;
+}
+
+input:focus {
+   background-color: lightblue;
+}
+
 /*Header*/
 header {
    background-image: url('images/header.jpg');

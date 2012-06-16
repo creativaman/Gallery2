@@ -1,6 +1,6 @@
 <h2>Авторизация</h2>
 <form action="" method="post">
-	<table cellspacing="0" cellpadding="0">
+	<table cellspacing="0" cellpadding="5">
 		<tr>
 			<td>Логин</td>
 			<td><input type="text" name="" value="" placeholder=""></td>
